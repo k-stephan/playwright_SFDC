@@ -1,0 +1,21 @@
+{
+  "name": "sfdcplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:mongo": "npx playwright test tests/mongo.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.1"
+  },
+  "dependencies": {
+    "mongodb": "^6.16.0",
+    "node-fetch": "^3.3.2"
+  }
+}
